@@ -9,6 +9,8 @@ DOCS_DEPEND="media-gfx/graphviz"
 ROCM_VERSION=${PV}
 inherit cmake docs edo multiprocessing prefix rocm
 
+LLVM_MAX_SLOT=18
+
 DESCRIPTION="AMD's library for BLAS on ROCm"
 HOMEPAGE="https://github.com/ROCmSoftwarePlatform/rocBLAS"
 SRC_URI="https://github.com/ROCmSoftwarePlatform/rocBLAS/archive/rocm-${PV}.tar.gz -> rocm-${P}.tar.gz"
