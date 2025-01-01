@@ -41,7 +41,7 @@ DEPEND="
 "
 
 PATCHES=(
-	"${FILESDIR}"/${PN}-6.0.0-change-default-Tensile-library-dir.patch
+	"${FILESDIR}"/${PN}-6.1.1-r1-change-default-Tensile-library-dir.patch
 	"${FILESDIR}"/${PN}-5.7.1-unbundle-Tensile.patch
 	)
 
