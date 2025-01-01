@@ -7,7 +7,7 @@ DOCS_BUILDER="doxygen"
 DOCS_DIR="docs"
 DOCS_DEPEND="media-gfx/graphviz"
 ROCM_VERSION=${PV}
-inherit cmake docs edo multiprocessing prefix rocm
+inherit cmake docs edo multiprocessing prefix llvm rocm
 
 LLVM_MAX_SLOT=18
 
